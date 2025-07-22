@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linvaro | Product Page</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/product.css" />
+
+  <script src="js/product.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <a href="index.html" class="logo-link">
+        <img src="images/linvaro-logo.png" alt="Linvaro Logo" class="logo" />
+      </a>
+      <a href="catalogue.html" class="back-to-catalogue">← Back to Catalogue</a>
+    </div>
+
+    <div class="header-right">
+      <div class="cart-div" id="cart-div">
+        <span id="cart-count" class="cart-count">0</span>
+        <a href="cart.html" class="cart-icon-link">
+          <img src="images/cart.png" alt="Cart" class="cart-icon" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="photo-section">
+      <div class="desktop-photos-section" id="main-product-image"></div>
+
+      <section class="recommendation-section">
+        <h3>You might also like</h3>
+        <div class="recommendation-list" id="recommendation-list">
+          <!-- Recommended products inserted by JS -->
+        </div>
+      </section>
+    </section>
+
+    <section class="details-section">
+      <div class="container">
+        <h1>Linvaro</h1>
+        <h2 id="product-name">Product Name</h2>
+        <p id="product-description">Product description goes here.</p>
+
+        <div class="pricing-section">
+          <div class="actual-price">
+            <h3 id="product-price">R850</h3>
+            <span class="discount">New</span>
+          </div>
+        </div>
+
+        <form id="add-to-cart-form">
+          <label for="quantity" class="quantity-label">
+            <button type="button" class="quantity-button minus">−</button>
+            <input type="number" name="quantity" id="quantity" min="1" value="1" />
+            <button type="button" class="quantity-button plus">+</button>
+          </label>
+          <button type="submit" class="submit">
+            <img src="images/cart.png" alt="Cart" class="submit-cart-icon" />
+            Add to Cart
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+

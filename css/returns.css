@@ -1,0 +1,68 @@
+/* Only for the Returns page layout */
+
+.returns-container {
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+}
+
+.returns-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.returns-container p,
+form label {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #563523;
+  color: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-wrapper input {
+  margin-right: 10px;
+}
+
+.pdf-download {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #0055aa;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}

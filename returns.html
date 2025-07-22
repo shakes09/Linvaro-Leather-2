@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Returns & Refunds - Linvaro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/returns.css" />
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header>
+    <div class="logo">
+      <img src="images/linvaro-logo.png" alt="Linvaro Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PAGE CONTENT -->
+  <main class="returns-container">
+    <h2>Returns and Refund Policy</h2>
+    <p>Please read our returns and refund policy carefully. If you’re not satisfied with your order, you can return it within 14 days. Terms apply.</p>
+    
+    <!-- Download PDF -->
+    <a href="assets/ReturnsPolicy.pdf" download class="pdf-download">📄 Download Refund Policy (PDF)</a>
+
+    <form id="returns-form">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="orderNumber">Order Number:</label>
+      <input type="text" id="orderNumber" name="orderNumber" required>
+
+      <label for="reason">Reason for Return:</label>
+      <textarea id="reason" name="reason" required></textarea>
+
+      <label for="images">Upload Photos (optional):</label>
+      <input type="file" id="images" name="images" multiple accept="image/*">
+
+      <div class="checkbox-wrapper">
+        <input type="checkbox" id="acceptPolicy" required>
+        <label for="acceptPolicy">I have read and accept the Returns and Refund Policy</label>
+      </div>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <!-- Info & Contact Block -->
+  <section class="info-contact">
+    <div class="address">
+      <h4>Our Address</h4>
+      <p>Blairgowrie, 
+       <p> Randburg, Gauteng,
+        <p></p>South Africa
+        <p></p>2194
+    </div>
+
+    <div class="quick-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="returns.html">Returns & Refunds</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="contact-info">
+      <h4>Contact Us</h4>
+      <p>WhatsApp: <a href="https://wa.me/27762046424" target="_blank">+27 76 204 6424</a></p>
+      <p>Email: <a href="mailto:linvaroleather@gmail.com">linvaroleather@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Linvaro. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/returns.js"></script>
+</body>
+</html>
+
+
+
