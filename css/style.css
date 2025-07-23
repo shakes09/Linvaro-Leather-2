@@ -63,26 +63,37 @@ header {
 }
 
 /* Text next to logo */
+.logo {
+  /* remove text styles */
+  font-weight: normal;
+  font-size: initial;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 120px;  /* Adjust to desired size */
+  height: auto;
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo-text {
-  position: relative;
-  font-family: 'Angelina', sans-serif;
-  line-height: 1;
+  font-family: 'Great Vibes', cursive; /* or any other cursive font you added */
+  font-size: 2.7rem;
 }
 
 .linvaro {
-  font-size: 40px;
-  color: #586548;  /* light green */
-  font-weight: bold;
+  color: #586548; /* soft green */
 }
 
-.leather {
-  font-size: 40px;
-  color: #7b4f31;  /* brown */
-  font-weight: 600;
-
-  /* offset to start under "ro" */
-  display: inline-block;
-  margin-left: 0px;  /* adjust this number to align exactly under "ro" */
+.leathers {
+  color: #563523; /* dark brown */
 }
 
 
